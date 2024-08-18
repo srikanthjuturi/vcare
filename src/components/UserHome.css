@@ -1,0 +1,70 @@
+.show-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 20px;
+
+}
+
+.doctor-image-in-userhome {
+    width: 320px;
+    height: 200px;
+
+}
+.doctor-home-content{
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+ .user-home-content{
+        width: 100%;
+        box-sizing:content-box;
+        overflow: hidden; 
+ }
+.show-doctors{
+    position: relative;     
+}
+.completedshow-doctors{
+    display: none;
+}
+.completed{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16, 13, 13, 0.694) ;
+    cursor:not-allowed;
+    color: red;
+     text-shadow: 0px 0px 10px  red ,0px 0px 10px  red, 0px 0px 10px  red ;
+    
+}
+
+@media screen and (min-width:325px) and (max-width:480px) {
+    .show-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-left: 0px;
+    }
+    .doctor-image-in-userhome {
+        width: 100%;
+        height: 200px;
+    
+    }
+    .doctor-home-content{
+       
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .user-home-content{
+        width: 100%;
+        overflow: hidden;
+      
+    }
+
+}

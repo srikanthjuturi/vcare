@@ -1,0 +1,36 @@
+.doctor-home-content {
+    height: fit-content;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-home-inner {
+    background-color: black;
+    padding: 40px 30px 30px 10px;
+}
+
+#doctorprofile {
+    width: 200px;
+    height: 200px;
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:325px) and (max-width:480px) {
+    .table-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .doctor-home-inner {
+        background-color: black;
+        padding: 10px;
+    }
+}

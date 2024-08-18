@@ -1,0 +1,28 @@
+.step1-div-main{
+    position: relative;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 100%;
+}
+
+.step1-div-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+ 
+#check-image{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:325px) and (max-width:480px){
+    .step1-div-inner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    
+    }
+}
+
