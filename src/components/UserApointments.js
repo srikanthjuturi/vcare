@@ -44,7 +44,7 @@ const deleteslot=async()=>{
 
   useEffect(() => {
     getdata()
-  }, [])
+  },[])
 
  
 

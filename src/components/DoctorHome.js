@@ -1,12 +1,10 @@
 
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Book.css'
 import { Typography } from '@mui/material'
 import './DoctorHome.css'
-import { json, useNavigate } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
 import DoctorNavbar from './DoctorNavbar'
-import axios from 'axios'
 
 export default function DoctorHome() {
 

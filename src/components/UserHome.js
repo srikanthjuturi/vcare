@@ -2,8 +2,6 @@
 import React, { useEffect, useState } from 'react'
 import './Book.css'
 import './DoctorHome.css'
-import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
 import './UserHome.css'
 import UserNav from './UserNav'
 import { Outlet } from 'react-router-dom'

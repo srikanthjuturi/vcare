@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import HomeNavbar from '../HomeNavbar'
+import React, { useState } from 'react'
 import { Button, Typography } from '@mui/material'
 import user from '../images/multiple-user.png'
 import './Doctor.css'
@@ -22,7 +21,7 @@ export default function UserLogin() {
   })
 
   const [loginerror, setloginerror] = useState('')
-  const [show, setshow] = useState(false)
+  
 
 
 

@@ -10,9 +10,8 @@ import aboutimg from './images/aboutdoctor.jpeg'
 import hairskin from './images/hairskin.jpg'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea} from '@mui/material';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 import { useRef } from 'react'
 
@@ -130,8 +129,6 @@ export default function Home() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          nextArrow: false,
-          prevArrow: false,
           nextArrow: <SampleNextArrow />,
           prevArrow: <SamplePrevArrow />
         }

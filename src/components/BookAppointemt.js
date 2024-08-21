@@ -16,7 +16,6 @@ export default function BookAppointemt() {
 
   const navigate = useNavigate()
 
-
   const fulldetails = async () => {
     try {
       const response = await axios.get(`http://localhost:5000/doctor/doctordata/${id}`)

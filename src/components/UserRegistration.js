@@ -1,5 +1,4 @@
 import React from 'react'
-import HomeNavbar from '../HomeNavbar'
 import user from '../images/multiple-user.png'
 import { Button, Typography } from '@mui/material'
 import { useState } from 'react';

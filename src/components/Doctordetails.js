@@ -8,7 +8,6 @@ import { useContext } from 'react'
 import { context } from '../App'
 import axios from 'axios'
 import './UserHome.css'
-import { Outlet } from 'react-router-dom'
 
 export default function Doctordetails() {
   const navigate = useNavigate()
