@@ -26,7 +26,9 @@ const deleteslot=async()=>{
     catch(e){
       console.log(e)
     }
-  }
+}
+
+ 
   const getdata = async () => {
     try {
       if (phonenumber) {
